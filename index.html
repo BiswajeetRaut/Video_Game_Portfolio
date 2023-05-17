@@ -11,15 +11,13 @@
         margin: 0;
         background-color: black;
     }
-    #id{
-
-    }
     canvas{
         box-shadow: 0 0 11px rgba(0,0,0,0.6);
     }
     #id>a{
         text-decoration: none;
         color:white;
+        cursor: pointer;
     }
     .heading{
         font-size: 30px;
@@ -74,7 +72,7 @@
         <canvas></canvas>
         <div class="keyid">
 
-            <div id="id" style="
+            <a id="id" style="
             color: white;
             background: #283878;
             padding: 10px;
@@ -82,9 +80,13 @@
             border-radius: 10px;
             box-shadow: 0 0 11px rgba(0,0,0,0.5);
             margin-bottom: 10px;
-            ">
-    <a href="">link will appear here</a> 
-</div>
+            cursor: pointer;
+            text-decoration: none;
+            "
+            href="" target="_blank"
+            >
+        link will appear here
+</a>
 <div class="key">
     <img src="./assets/game-assets/left-key.png" alt="" srcset="" id="left">
     <img src="./assets/game-assets/up-key.png" alt="" srcset="" id="up">

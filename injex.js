@@ -530,7 +530,8 @@ function animate()
     if(player.position.y==169.5 && (player.position.x>=320 && player.position.x<=400))
     {
         console.log(player.position.y +" "+ player.position.x+" ");
-                document.getElementById('id').innerHTML=`<a href="https://github.com/BiswajeetRaut/Weather-App" target="blank">Weather App</a>`;
+        document.getElementById('id').innerHTML=`Weather App`;
+        document.getElementById('id').href='https://github.com/BiswajeetRaut/Weather-App'
     }
     else{
         // redirect = false;
@@ -540,7 +541,8 @@ function animate()
     if(player.position.y==149.5 && (player.position.x>=320 && player.position.x<=400)&&redirect1==false)
     {
         console.log(player.position.y +" "+ player.position.x+" ");
-        document.getElementById('id').innerHTML=`<a href="https://github.com/BiswajeetRaut/VIT-SHOP" target="blank">Weather App</a>`;
+        document.getElementById('id').innerHTML=`VIT-SHOP`;
+        document.getElementById('id').href='https://github.com/BiswajeetRaut/VIT-SHOP'
     }
     else{
         // redirect = false;
@@ -550,7 +552,8 @@ function animate()
     if(player.position.y==129.5 && (player.position.x>=320 && player.position.x<=400))
     {
         console.log(player.position.y +" "+ player.position.x+" ");
-        document.getElementById('id').innerHTML=`<a href="https://github.com/BiswajeetRaut/V-academics" target="blank">V-Academics</a>`;
+        document.getElementById('id').innerHTML=`V-Academics`;
+        document.getElementById('id').href='https://github.com/BiswajeetRaut/V-academics'
     }
     else{
         // redirect = false;
@@ -560,7 +563,8 @@ function animate()
     if(player.position.y==109.5 && (player.position.x>=320 && player.position.x<=400))
     {
         console.log(player.position.y +" "+ player.position.x+" ");
-        document.getElementById('id').innerHTML=`<a href="https://github.com/BiswajeetRaut/V-chat" target="blank">V-Chat</a>`;
+        document.getElementById('id').innerHTML=`V-chat`;
+        document.getElementById('id').href='https://github.com/BiswajeetRaut/V-chat'
     }
     else{
         // redirect = false;
@@ -570,7 +574,8 @@ function animate()
     if(player.position.y==89.5 && (player.position.x>=320 && player.position.x<=400))
     {
         console.log(player.position.y +" "+ player.position.x+" ");
-        document.getElementById('id').innerHTML=`<a href="https://github.com/BiswajeetRaut/marketplaceWeb3.0" target="blank">Web3.0 MarketPlace</a>`;
+        document.getElementById('id').innerHTML=`Web3.0 MarketPlace`;
+        document.getElementById('id').href='https://github.com/BiswajeetRaut/marketplaceWeb3.0'
     }
     else{
         // redirect = false;
@@ -580,7 +585,8 @@ function animate()
     if(player.position.y==69.5 && (player.position.x>=320 && player.position.x<=400))
     {
         console.log(player.position.y +" "+ player.position.x+" ");
-        document.getElementById('id').innerHTML=`<a href="https://github.com/BiswajeetRaut/DripMonitoring-System" target="blank">Drip Guardian</a>`;
+        document.getElementById('id').innerHTML=`Drip Guardian`;
+        document.getElementById('id').href='https://github.com/BiswajeetRaut/DripMonitoring-System'
         
     }
     else{
@@ -591,7 +597,8 @@ function animate()
     if(player.position.y==49.5 && (player.position.x>=320 && player.position.x<=400))
     {
         console.log(player.position.y +" "+ player.position.x+" ");
-        document.getElementById('id').innerHTML=`<a href="https://github.com/BiswajeetRaut/Organ-Oasis" target="blank">Organ-Oasis</a>`;
+        document.getElementById('id').innerHTML=`Organ-Oasis`;
+        document.getElementById('id').href='https://github.com/BiswajeetRaut/Organ-Oasis'
     }
     else{
         // redirect = false;
@@ -601,7 +608,8 @@ function animate()
     if(player.position.y==29.5 && (player.position.x>=320 && player.position.x<=400))
     {
         console.log(player.position.y +" "+ player.position.x+" ");
-        document.getElementById('id').innerHTML=`<a href="https://github.com/BiswajeetRaut/" target="blank">Github</a>`;
+        document.getElementById('id').innerHTML=`Github`;
+        document.getElementById('id').href='https://github.com/BiswajeetRaut/'
     }
     else{
         // redirect = false;
@@ -611,7 +619,8 @@ function animate()
     if(player.position.y==19.5 && (player.position.x>=320 && player.position.x<=400))
     {
         console.log(player.position.y +" "+ player.position.x+" ");
-        document.getElementById('id').innerHTML=`<a href="https://www.linkedin.com/in/biswajeet-raut-9b14b0267/" target="blank">LinkedIn</a>`;
+        document.getElementById('id').innerHTML=`LinkedIn`;
+        document.getElementById('id').href='https://www.linkedin.com/in/biswajeet-raut-9b14b0267/'
     }
     else{
         // redirect = false;
@@ -621,7 +630,9 @@ function animate()
     if(player.position.y==9.5 && (player.position.x>=320 && player.position.x<=400))
     {
         console.log(player.position.y +" "+ player.position.x+" ");
-        document.getElementById('id').innerHTML=`<a href="mailto:biswajeetraut382@gmail.com" target="blank">Mail Me</a>`;
+        document.getElementById('id').innerHTML=`Mail Me`;
+        document.getElementById('id').href='mailto:biswajeetraut382@gmail.com'
+
     }
     else{
         // redirect = false;
