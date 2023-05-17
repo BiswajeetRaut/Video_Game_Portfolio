@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biswajeet's Portfolio</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        background-color: black;
+    }
+    #id{
+
+    }
+    canvas{
+        box-shadow: 0 0 11px rgba(0,0,0,0.6);
+    }
+    #id>a{
+        text-decoration: none;
+        color:white;
+    }
+    .heading{
+        font-size: 30px;
+    color: white;
+    text-shadow: 0 0 11px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 10px;
+    }
+    .keys{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    }
+    .keyid{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    }
+</style>
+<body>
+    <audio controls autoplay style="display: none;" loop>
+        <source src="./assets//game-assets/marioaudio.mp3" type="audio/mpeg">
+      </audio>
+    <div style="
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    flex-direction: column;
+    background: #5f79d7;
+    gap: 20px;
+    overflow:auto;
+    ">
+    <div class="heading">
+        Biswajeet's Portfolio <t></t>||
+        <div class="keys">
+            Use your keyboard arrow keys to move and jump
+            <img src="./assets/game-assets/keys.png" alt="" srcset="">    
+        </div>
+    </div>
+        <canvas></canvas>
+        <div class="keyid">
+
+            <div id="id" style="
+            color: white;
+            background: #283878;
+            padding: 10px;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 0 11px rgba(0,0,0,0.5);
+            margin-bottom: 10px;
+            ">
+    <a href="">link will appear here</a> 
+</div>
+<div class="key">
+    <img src="./assets/game-assets/left-key.png" alt="" srcset="" id="left">
+    <img src="./assets/game-assets/up-key.png" alt="" srcset="" id="up">
+    <img src="./assets/game-assets/right-key.png" alt="" srcset="" id="right">
+</div>   
+</div>
+    </div>
+    
+    <!-- <img src="./assets/game-assets/background.png"> -->
+    <script src="./injex.js" type="module"></script>
+</body>
+</html>
